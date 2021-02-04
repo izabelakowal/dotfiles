@@ -1,7 +1,6 @@
 # Development
 
-brew 'bash' # Latest Bash version
-
+brew "bash"
 brew "zsh"
 brew "git"
 
