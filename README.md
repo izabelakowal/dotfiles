@@ -9,10 +9,10 @@ dotfiles for mac os
 
 
 #### TODO:
-* [ ] aliases
-* [ ] zshrc
+* [x] aliases
+* [x] zshrc
 * [ ] path
-* [ ] mackup config
+* [x] mackup config
 * [ ] mac os config
 * [ ] custom zsh theme
 * [ ] ubuntu version
