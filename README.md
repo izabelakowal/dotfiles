@@ -6,3 +6,14 @@ dotfiles for mac os
 2. Generate a new public and private SSH key and add them to Github
 3. Install Oh My Zsh
 4.
+
+
+#### TODO:
+* [ ] aliases
+* [ ] zshrc
+* [ ] path
+* [ ] mackup config
+* [ ] mac os config
+* [ ] custom zsh theme
+* [ ] ubuntu version
+ 
