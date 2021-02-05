@@ -1,10 +1,8 @@
-# Development
-
 brew "pyenv"
 brew "pipx"
 
-brew "node"
-brew "yarn"
+# brew "node"
+# brew "yarn"
 
 brew "postgresql", restart_service: true
 brew "redis"
