@@ -16,6 +16,7 @@ dotfiles for mac os
 * [ ] mac os config
 * [ ] custom zsh theme
 * [ ] ubuntu version
+* [ ] add flux config
  
 
  #### Inspiration:
