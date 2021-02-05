@@ -17,3 +17,6 @@ dotfiles for mac os
 * [ ] custom zsh theme
 * [ ] ubuntu version
  
+
+ #### Inspiration:
+ * [driesvints/dotfiles](https://github.com/driesvints/dotfiles)

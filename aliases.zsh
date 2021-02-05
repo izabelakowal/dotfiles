@@ -1,7 +1,7 @@
 # shortcuts
 alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 alias unpack='tar xvzf'
-alias pack='tar zcvf
+alias pack='tar zcvf'
 
 # directories
 alias dotfiles="cd $DOTFILES"
