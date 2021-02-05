@@ -1,5 +1,5 @@
 # shortcuts
-alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
+alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
 alias unpack='tar xvzf'
 alias pack='tar zcvf'
 
