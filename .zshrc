@@ -1,8 +1,13 @@
-# Create Aliases
+# create aliases
 source $HOME/.dotfiles/aliases.zsh
 
-# Customize Prompt
+# customize prompt
 PROMPT='
 %1~ %L %# '
 
 RPROMPT='%*'
+
+# functions
+function mkcd() {
+	mkdir -p "$@" && cd "$_";
+}
