@@ -1,7 +1,8 @@
 # shortcuts
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
-alias unpack='tar xvzf'
+alias ls='ls -lAFh'
 alias pack='tar zcvf'
+alias unpack='tar xvzf'
 
 # directories
 alias dotfiles="cd $DOTFILES"
