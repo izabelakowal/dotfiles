@@ -1,6 +1,8 @@
 
 # TODO install pyenv via pyenv installer
 brew "pyenv"
+
+# TODO add pipx ensurepath
 brew "pipx"
 
 # brew "node"
