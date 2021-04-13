@@ -1,3 +1,5 @@
+#!/usr/bin/env zsh
+
 # shortcuts
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
 alias ls='ls -lAFh'
