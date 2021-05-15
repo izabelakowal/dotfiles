@@ -1,3 +1,5 @@
+#!/usr/bin/env zsh
+
 # shortcuts
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
 alias ls='ls -lAFh'
@@ -11,8 +13,8 @@ alias dotfiles="cd $DOTFILES"
 alias gl="git log --oneline --decorate --color"
 
 # docker
-alias drmiall='docker rmi $(sudo docker images)'
+alias drmi_all='docker rmi $(sudo docker images)'
 alias drmi_prune='docker system prune'
 
 # python
-alias ipy="python -c 'import IPython; IPython.frontend.terminal.ipapp.launch_new_instance()'"
+alias ipy="python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance()'"
