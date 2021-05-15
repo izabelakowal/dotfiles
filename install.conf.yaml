@@ -1,0 +1,19 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.zshrc: zshrc
+    ~/.gitconfig: gitconfig
+    ~/.mackup.cfg: mackup.cfg
+
+- create:
+    - ~/Code
+
+- shell:
+  - command: ./aliases.zsh
+    stdout: true
+    stderr: true
+  # - [git submodule update --init --recursive, Installing submodules]
