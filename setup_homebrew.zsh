@@ -9,4 +9,6 @@ else
   echo 'Brew exists, skipping install'
 fi
 
+# update your Brewfile with
+# brew bundle dump --force --describe 
 brew bundle --verbose
