@@ -5,18 +5,17 @@ dotfiles for mac os
 1. Install macOS Command Line Tools by running `xcode-select --install`
 2. Generate a new public and private SSH key and add them to Github
 3. Install Oh My Zsh
-4.
+4. TODO: complete this
 
+#### Maintenance:
+* update Brewfile with `brew bundle dump --force --describe`
 
 #### TODO:
-* [x] aliases
-* [x] zshrc
-* [ ] path
-* [x] mackup config
-* [ ] mac os config
-* [ ] custom zsh theme
-* [ ] ubuntu version
-* [ ] add flux config
+* add better pipx and pyenv setup
+* set proper mackup config
+* add vscode config
+* custom zsh theme
+* add flux config
  
 
  #### Inspiration:
