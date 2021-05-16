@@ -13,7 +13,7 @@
     - ~/Code
 
 - shell:
-  - command: ./aliases.zsh
+  - command: ./setup_homebrew.zsh
     stdout: true
     stderr: true
   # - [git submodule update --init --recursive, Installing submodules]
