@@ -2,6 +2,8 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # Configurable static site generator
 brew "hugo"
 # Cryptography and SSL/TLS Toolkit
@@ -38,7 +40,7 @@ cask "firefox"
 cask "flux"
 # Web browser
 cask "google-chrome"
-# erminal emulator as alternative to Apple's Terminal app
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Office suite
 cask "libreoffice"
