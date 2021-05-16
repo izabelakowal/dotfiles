@@ -1,6 +1,9 @@
 
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
+# syntax highlighting for manpages using bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
 # create aliases
 source $HOME/.dotfiles/aliases.zsh
 
