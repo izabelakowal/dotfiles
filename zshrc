@@ -1,3 +1,6 @@
+
+export HOMEBREW_CASK_OPTS="--no-quarantine"
+
 # create aliases
 source $HOME/.dotfiles/aliases.zsh
 
