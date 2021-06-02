@@ -6,6 +6,7 @@
 
 - link:
     ~/.zshrc: zshrc
+    ~/.zshenv: zshenv
     ~/.gitconfig: gitconfig
     ~/.mackup.cfg: mackup.cfg
 
@@ -14,6 +15,12 @@
 
 - shell:
   - command: ./setup_homebrew.zsh
+    stdout: true
+    stderr: true
+  - command: ./install_ohmyzsh.zsh
+    stdout: true
+    stderr: true
+  - command: ./install_python_tools.zsh
     stdout: true
     stderr: true
   # - [git submodule update --init --recursive, Installing submodules]
