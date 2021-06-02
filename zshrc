@@ -1,6 +1,7 @@
 # Path to your dotfiles.
 export DOTFILES=$HOME/.dotfiles
 
+#--------------------------------------------------
 # oh-my-zsh configuration:
 
 # Path to your oh-my-zsh installation.
@@ -32,19 +33,13 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-#--------------------------------------------------
-
 # TODO: customize prompt
 # PROMPT='
 # %1~ %L %# '
 
 # RPROMPT='%*'
 
-# Homebrew no-quarantine option
-export HOMEBREW_CASK_OPTS="--no-quarantine"
-
-# syntax highlighting for manpages using bat
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+#--------------------------------------------------
 
 # create aliases
 source $HOME/.dotfiles/aliases.zsh
@@ -63,7 +58,6 @@ fi
 # pipx ensurepath
 export PATH="$PATH:/Users/izabelakowal/.local/bin"
 
-# TODO not sure if this should be in zshrc
-autoload -U bashcompinit
-bashcompinit
+# pipx completions
+autoload -U bashcompinit && bashcompinit
 eval "$(register-python-argcomplete pipx)"
