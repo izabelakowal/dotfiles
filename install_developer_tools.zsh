@@ -1,5 +1,8 @@
 #!/usr/bin/env zsh
 
+echo "Installing VSCode extensions...\n"
+cat vscode_extensions | xargs -L 1 code --install-extension
+
 # install pyenv
 # TODO check with exists
 echo "Setting up pyenv...\n"

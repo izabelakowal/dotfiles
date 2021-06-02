@@ -20,7 +20,7 @@
   - command: ./install_ohmyzsh.zsh
     stdout: true
     stderr: true
-  - command: ./install_python_tools.zsh
+  - command: ./install_developer_tools.zsh
     stdout: true
     stderr: true
   # - [git submodule update --init --recursive, Installing submodules]
