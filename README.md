@@ -13,6 +13,7 @@ dotfiles for mac os
 
 #### Maintenance:
 * update Brewfile with `brew bundle dump --force --describe`
+* update VS Code extensions with `code --list-extensions > vscode_extensions`
 
  #### Inspiration:
  * [driesvints/dotfiles](https://github.com/driesvints/dotfiles)
