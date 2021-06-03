@@ -1,12 +1,12 @@
 #!/usr/bin/env zsh
 
-echo "Setting up Homebrew...\n"
+echo "\nSetting up Homebrew...\n"
 
-if test ! $(which brew); then
-  echo 'Installing Brew'
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+if exists brew; then
+  echo "\nBrew exists, skipping install\n"
 else
-  echo 'Brew exists, skipping install'
+  echo "\nInstalling Brew\n"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 brew bundle --verbose
