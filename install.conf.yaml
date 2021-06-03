@@ -14,10 +14,10 @@
     - ~/Code
 
 - shell:
-  - command: ./setup/setup_homebrew.zsh
+  - command: ./general_setup/setup_homebrew.zsh
     stdout: true
     stderr: true
-  - command: ./setup/install_ohmyzsh.zsh
+  - command: ./general_setup/install_ohmyzsh.zsh
     stdout: true
     stderr: true
   - command: ./vscode/install_vscode_tools.zsh
