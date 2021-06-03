@@ -18,3 +18,4 @@ dotfiles for mac os
  #### Inspiration:
  * [driesvints/dotfiles](https://github.com/driesvints/dotfiles)
  * [eieioxyz/dotfiles_macos](https://github.com/eieioxyz/dotfiles_macos)
+ * [llazzaro/dotfiles](https://github.com/llazzaro/dotfiles)
