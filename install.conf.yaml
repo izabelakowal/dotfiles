@@ -23,4 +23,6 @@
   - command: ./install_developer_tools.zsh
     stdout: true
     stderr: true
-  # - [git submodule update --init --recursive, Installing submodules]
+  - command: ./python/install_python_tools.zsh
+    stdout: true
+    stderr: true
