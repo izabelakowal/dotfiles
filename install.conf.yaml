@@ -7,6 +7,7 @@
 - link:
     ~/.zshrc: zshrc
     ~/.zshenv: zshenv
+    ~/.zprofile: zprofile
     ~/.gitconfig: gitconfig
     ~/.mackup.cfg: mackup.cfg
 
