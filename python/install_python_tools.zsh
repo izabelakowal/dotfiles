@@ -59,7 +59,7 @@ else
     echo "\npipx already installed\n"
 fi
 
-echo "\nInstalling pipx packages for $GLOBAL_PY...\n"
+echo "\nInstalling pipx packages for Python $GLOBAL_PY...\n"
 PIPX_LIST="$(pipx list)"
 GLOBAL_PY_PATH="$(pyenv which python)"
 
