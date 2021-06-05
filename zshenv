@@ -7,11 +7,6 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 # pipx ensurepath
 export PATH="$PATH:/Users/izabelakowal/.local/bin"
 
-# add pyenv executable to PATH and enable shims
-# export PYENV_ROOT="$HOME/.pyenv"
-# export PATH="$PYENV_ROOT/bin:$PATH"
-# eval "$(pyenv init --path)"
-
 # functions
 function exists() {
     command -v $1 >/dev/null 2>&1
