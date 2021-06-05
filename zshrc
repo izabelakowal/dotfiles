@@ -14,12 +14,13 @@ export ZSH="/Users/izabelakowal/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="aussiegeek"
+# ZSH_THEME=random
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "aussiegeek" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -68,7 +69,7 @@ ZSH_THEME="aussiegeek"
 HIST_STAMPS="dd/mm/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=$DOTFILES
+ZSH_CUSTOM=$DOTFILES/customs
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -107,15 +108,9 @@ source $ZSH/oh-my-zsh.sh
 
 #--------------------------------------------------
 
-# create aliases
-source $HOME/.dotfiles/aliases.zsh
-
 # pyenv setup
-# TODO check if below can be set in zshenv
-# export PYENV_ROOT="$HOME/.pyenv"
-# export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# eval "$(pyenv virtualenv-init -)"
 
 # pipx completions
 autoload -U bashcompinit && bashcompinit
