@@ -22,6 +22,8 @@ brew "mackup"
 brew "pipx"
 # Object-relational database system
 brew "postgresql", restart_service: true
+# Python version management
+brew "pyenv"
 # Persistent key-value database, with built-in net interface
 brew "redis"
 # General-purpose lossless data-compression library
