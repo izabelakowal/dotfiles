@@ -4,3 +4,4 @@ ipython
 poetry
 pre-commit
 pylint
+tox
