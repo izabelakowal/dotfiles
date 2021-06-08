@@ -2,9 +2,9 @@
 
 # shortcuts
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
-alias ls='ls -lAFh'
-alias pack='tar zcvf'
-alias unpack='tar xvzf'
+alias ls="ls -lAFh"
+alias pack="tar zcvf"
+alias unpack="tar xvzf"
 
 # directories
 alias dotfiles="cd $DOTFILES"
@@ -13,8 +13,9 @@ alias dotfiles="cd $DOTFILES"
 alias gl="git log --oneline --decorate --color"
 
 # docker
-alias drmi_all='docker rmi $(sudo docker images)'
-alias drmi_prune='docker system prune'
+alias drmi_all="docker rmi $(sudo docker images)"
+alias drmi_prune="docker system prune"
+alias drm_volumes="docker volume rm $(docker volume ls -q)"
 
 # python
 alias ipy="python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance()'"
