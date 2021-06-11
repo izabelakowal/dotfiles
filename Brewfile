@@ -20,8 +20,6 @@ brew "xz"
 brew "mackup"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
-# Object-relational database system
-brew "postgresql", restart_service: true
 # Python version management
 brew "pyenv"
 # Persistent key-value database, with built-in net interface
