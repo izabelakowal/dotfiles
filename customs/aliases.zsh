@@ -13,7 +13,7 @@ alias dotfiles="cd $DOTFILES"
 alias gl="git log --oneline --decorate --color"
 
 # docker
-alias drmi_all="docker rmi $(sudo docker images)"
+alias drmi_all="docker rmi $(docker images)"
 alias drmi_prune="docker system prune"
 alias drm_volumes="docker volume rm $(docker volume ls -q)"
 
