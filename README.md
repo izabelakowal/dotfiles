@@ -24,7 +24,8 @@ dotfiles for macOS, including:
 * update VSCode extensions with `code --list-extensions > vscode_extensions` in `vscode` directory
 
 #### TODO:
-* [ ] add oh-my-zsh plugins
+* [ ] add oh-my-zsh Python plugins
+* [ ] create M1 configuration on a separate branch
 
  #### Inspiration:
  * [eieioxyz/dotfiles_macos](https://github.com/eieioxyz/dotfiles_macos)
