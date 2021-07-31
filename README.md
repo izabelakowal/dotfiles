@@ -25,7 +25,6 @@ dotfiles for macOS, including:
 
 #### TODO:
 * [ ] add oh-my-zsh Python plugins
-* [ ] create M1 configuration on a separate branch
 
  #### Inspiration:
  * [eieioxyz/dotfiles_macos](https://github.com/eieioxyz/dotfiles_macos)
