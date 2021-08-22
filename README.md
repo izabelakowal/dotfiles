@@ -25,6 +25,7 @@ dotfiles for macOS, including:
 
 #### TODO:
 * [ ] add oh-my-zsh Python plugins
+* [ ] add Spectacle installation
 
  #### Inspiration:
  * [eieioxyz/dotfiles_macos](https://github.com/eieioxyz/dotfiles_macos)
