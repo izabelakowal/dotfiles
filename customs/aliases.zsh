@@ -11,6 +11,7 @@ alias dotfiles="cd $DOTFILES"
 
 # git
 alias gl="git log --oneline --decorate --color"
+alias git_most_changed="git log --pretty=format: --name-only | sort | uniq -c | sort -rg | head -20"
 
 # docker
 alias drmi_all="docker rmi $(docker images)"
